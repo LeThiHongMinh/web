@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hero.css">
+    <!-- jPlayer -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.1.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jplayer@2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Ocean",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/ocean.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_1",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_2").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Birds",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/birds160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_2",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_3").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Wind",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/gale160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_3",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+		
+	$("#jquery_jplayer_4").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Whitenoise",
+				mp3: "https://ambicular.com/sounds/noise/white-noise144.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_4",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_5").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Library",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/people/delft-library160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_5",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_6").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Train",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/train160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_6",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_7").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "River",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/river160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_7",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});	
+	
+	$("#jquery_jplayer_8").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Fire",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/fireplace.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_8",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_9").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Crickets",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/crickets160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_9",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_10").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Rowing",
+				mp3: "https://ambicular.com/sounds/defonicprem/rowing160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_10",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+				
+	$("#jquery_jplayer_11").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Road",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/highway160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_11",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});	
+	
+	$("#jquery_jplayer_12").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Fan",
+				mp3: "https://ambicular.com/sounds/objects/fan-two160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_12",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});	
+	
+	$("#jquery_jplayer_13").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Rain",
+				mp3: "https://ambicular.com/sounds/rain/rainbest160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_13",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});	
+
+	$("#jquery_jplayer_14").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Thunder",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/rain/thunder160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_14",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_15").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Snow",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/snow.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_15",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_16").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Windchime",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/windchime160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_16",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_17").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Cafe",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/cafe/cafe-brazil-walla160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_17",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_18").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Jungle",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/defonicprem/jungle160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_18",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_19").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Cat",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/cat160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_19",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+	$("#jquery_jplayer_20").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Leaves",
+				mp3: "https://e8b8e3q2.ssl.hwcdn.net/sounds/hipster/aspen-tree160.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_20",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+	
+	$("#jquery_jplayer_21").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title: "Pinknoise",
+				mp3: "https://ambicular.com/sounds/noise/pink-noise144.mp3"
+			});
+		},
+		solution: "html",
+		preload: "none",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_21",
+		loop: true,
+		error: function(event) {
+            var time = event.jPlayer.status.currentTime;
+            $(this).jPlayer("play", time);
+            }
+	});
+
+
+});
+
+//]]>
+</script>
+<script async data-apikey="c01dcfa69bd501181e9dc25410411d" data-cookieless src="https://cdn.jsdelivr.net/npm/hockeystack@latest/hockeystack.min.js"></script>
+
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Homepage
+                    </span>
+                </a>
+              
+            </li>
+            <li class="has-subnav">
+                <a href="hero.html">
+                    <i class="fa fa-laptop fa-2x"></i>
+                    <span class="nav-text">
+                        Hero Mode
+                    </span>
+                </a>
+                
+            </li>
+            <li class="has-subnav">
+                <a href="thu.html">
+                   <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                        Exercise
+                    </span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="td.html">
+                   <i class="fa fa-list fa-2x"></i>
+                    <span class="nav-text">
+                        To Do List
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div id="pomodoro-app">
+        <div id="container">
+          <div id="timer">
+            <div id="time">
+              <span id="minutes">25</span>
+              <span id="colon">:</span>
+              <span id="seconds">00</span>
+            </div>
+            <div id="filler"></div>
+          </div>
+      
+          <div id="buttons">
+            <button id="work">Work</button>
+            <button id="shortBreak">Short Break</button>
+            <button id="longBreak">Long Break</button>
+            <button id="stop">Stop</button>
+          </div>
+        </div>
+    </div>
+    <!-- jpplayer begins -->
+<div id="jquery_jplayer_1" class="jp-jplayer jp-jplayer1"></div>
+<div id="jquery_jplayer_2" class="jp-jplayer jp-jplayer2"></div>
+<div id="jquery_jplayer_3" class="jp-jplayer jp-jplayer3"></div>
+<div id="jquery_jplayer_4" class="jp-jplayer jp-jplayer4"></div>
+<div id="jquery_jplayer_5" class="jp-jplayer jp-jplayer5"></div>
+<div id="jquery_jplayer_6" class="jp-jplayer jp-jplayer6"></div>
+<div id="jquery_jplayer_7" class="jp-jplayer jp-jplayer7"></div>
+<div id="jquery_jplayer_8" class="jp-jplayer jp-jplayer8"></div>
+<div id="jquery_jplayer_9" class="jp-jplayer jp-jplayer9"></div>
+<div id="jquery_jplayer_10" class="jp-jplayer jp-jplayer10"></div>
+<div id="jquery_jplayer_11" class="jp-jplayer jp-jplayer11"></div>
+<div id="jquery_jplayer_12" class="jp-jplayer jp-jplayer12"></div>
+<div id="jquery_jplayer_13" class="jp-jplayer jp-jplayer13"></div>
+<div id="jquery_jplayer_14" class="jp-jplayer jp-jplayer14"></div>
+<div id="jquery_jplayer_15" class="jp-jplayer jp-jplayer15"></div>
+<div id="jquery_jplayer_16" class="jp-jplayer jp-jplayer16"></div>
+<div id="jquery_jplayer_17" class="jp-jplayer jp-jplayer17"></div>
+<div id="jquery_jplayer_18" class="jp-jplayer jp-jplayer18"></div>
+<div id="jquery_jplayer_19" class="jp-jplayer jp-jplayer19"></div>
+<div id="jquery_jplayer_20" class="jp-jplayer jp-jplayer20"></div>
+<div id="jquery_jplayer_21" class="jp-jplayer jp-jplayer21"></div>
+<div id="content">		        
+    <div class="row">
+          
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_1" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower1"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/ocean.svg" title="Ocean waves" alt="ocean" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider1"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/ocean.svg" title="Ocean waves" alt="ocean image" class="img2"></a>
+          </div>
+      </div>
+                              
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_7" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower7"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/brook.svg" title="River" alt="river" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider7"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/brook.svg" title="River" alt="river image" class="img2"></a>
+          </div>
+      </div>
+                              
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_13" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower13"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/rain.svg" title="Rain" alt="rain" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider13"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/rain.svg" title="Rain" alt="rain image" class="img2"></a>
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_2" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower2"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/forest.svg" title="Forest" alt="forest" class="img1 shadow" onclick="document.getElementById('birds').style.display='inline';"></a>		
+                  <a href="javascript:;" class="jp-pause" id="hider2"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/forest.svg" title="Forest" alt="forest image" class="img2" onclick="document.getElementById('birds').style.display='none';"></a>				
+          </div>
+      </div>
+                              
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_8" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower8"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/fire.svg" title="Crackling fireplace" alt="fireplace" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider8"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/fire.svg" title="Crackling fireplace" alt="fireplace image" class="img2"></a>
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_14" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower14"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/thunder.svg" title="Thunder" alt="thunder" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider14"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/thunder.svg" title="Thunder" alt="thunder image" class="img2"></a>
+          </div>
+      </div>	
+                                                          
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_3" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower3"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/wind.svg" title="Wind" alt="wind" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider3"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/wind.svg" title="Wind" alt="wind image" class="img2"></a>			
+          </div>
+      </div>
+                              
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_9" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower9"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/moon.svg" title="At night" alt="night" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider9"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/moon.svg" title="At night" alt="night image" class="img2"></a>
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_20" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower20"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/leafs.svg" title="Leaves" alt="leaves" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider20"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/leafs.svg" title="Leaves" alt="leaves image" class="img2"></a>
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_16" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower16"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/bell.svg" title="Wind chime" alt="windchime" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider16"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/bell.svg" title="Wind chime" alt="wind chime image" class="img2 wobble-hor-top"></a>
+          </div>
+      </div>
+                              
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_15" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower15"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/snow.svg" title="Snow storm" alt="snow" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider15"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/snow.svg" title="Snow storm" alt="snow image" class="img2 flip-diagonal-1-bl"></a>	
+          </div>
+      </div>
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_17" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower17"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/cafe.svg" title="Café" alt="cafe" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider17"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/cafe.svg" title="Café" alt="cafe image" class="img2 rotate-90-ccw"></a>
+          </div>
+      </div>
+                                                                                              
+  
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_12" class="info">	
+                  <a href="javascript:;" class="jp-play" id="shower12"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/fan.svg" title="Air fan" alt="fan" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider12"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/fan.svg" title="Air fan" alt="fan image" class="img2 rotate-center"></a>
+          </div>
+      </div>
+      
+  
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_6" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower6"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/train.svg" title="Train" alt="train" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider6"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/train.svg" title="Train" alt="train image" class="img2"></a>		
+          </div>
+      </div>
+      
+  
+      
+      <div class="col-xs-6 col-sm-4">
+          <div id="jp_container_5" class="info">
+                  <a href="javascript:;" class="jp-play" id="shower5"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/library.svg" title="Campus library" alt="library" class="img1 shadow"></a>
+                  <a href="javascript:;" class="jp-pause" id="hider5"><img src="https://g2k7z4f8.ssl.hwcdn.net/defonic/images/icons/library.svg" title="Campus library" alt="book image" class="img2"></a>
+          </div>
+      </div>
+  
+    <script src="hero.js"></script>
+</body>
+</html>
